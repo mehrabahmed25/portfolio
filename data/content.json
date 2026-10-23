@@ -1,0 +1,295 @@
+{
+  "profile": {
+    "id": 1,
+    "full_name": "Mehrab Uddin Ahmed",
+    "headline": "AI/ML Researcher · Precision Agriculture & IoT",
+    "tagline": "I build machine-learning and IoT systems that help farmers make better decisions — from soil sensors in the field to models running on the edge.",
+    "about": "I'm a Research Assistant at North South University working at the intersection of machine learning, computer vision and the Internet of Things, with a focus on agriculture. My work spans IoT-enabled crop recommendation, CNN-based plant disease detection, and real-time environmental monitoring of soil, weather and crop conditions.\n\nI hold a B.Sc. in Computer Science and Engineering from North South University. Along the way I've worked across the full pipeline — collecting field data, preprocessing and feature engineering, training and evaluating models, and deploying them on low-cost hardware. I enjoy working in interdisciplinary teams and turning data into practical systems that make a real difference.",
+    "research_interests": [
+      "Precision agriculture",
+      "IoT & edge AI",
+      "Crop recommendation",
+      "Plant disease detection",
+      "Computer vision",
+      "Explainable AI"
+    ],
+    "location": "Dhaka, Bangladesh",
+    "email": "ahmedmehrabu@gmail.com",
+    "phone": "",
+    "show_phone": false,
+    "photo_url": "",
+    "cv_url": "",
+    "linkedin_url": "",
+    "github_url": "https://github.com/mehrabahmed25",
+    "scholar_url": "",
+    "researchgate_url": "",
+    "orcid_url": "",
+    "open_to_work": true
+  },
+  "publications": [
+    {
+      "title": "An IoT-enabled AI system for real-time crop prediction using soil and weather data in precision agriculture",
+      "authors": "MD Shaifullah Sharafat, Nilavro Das Kabya, Rahimul Islam Emu, Mehrab Uddin Ahmed, Jakaria Chowdhury Onik, Mohammad Aminul Islam, Riasat Khan",
+      "venue": "Smart Agricultural Technology, Article 101263",
+      "publisher": "Elsevier",
+      "year": 2025,
+      "pub_type": "Journal Article",
+      "summary": "An IoT-based crop recommendation system for Bangladesh that combines real-time soil sensor readings with weather data. Using 3,300 samples covering 22 crops and eight soil and environmental features, the study compares Random Forest, Gradient Boosting, stacking ensembles and TabNet, deploys the model on a Raspberry Pi 5 for low-latency inference, visualises data on ThingsBoard, and explains predictions with LIME.",
+      "highlights": [
+        "95.9% | Accuracy, stacking ensemble",
+        "95.8% | Random Forest, deployed on Raspberry Pi 5",
+        "22 crops | Learned from 3,300 soil and weather samples",
+        "LIME explanations make each crop recommendation interpretable for farmers",
+        "Live sensor and weather dashboards built on ThingsBoard"
+      ],
+      "tags": [
+        "IoT",
+        "Machine Learning",
+        "Edge AI",
+        "Explainable AI",
+        "Precision Agriculture"
+      ],
+      "doi_url": "https://doi.org/10.1016/j.atech.2025.101263",
+      "pdf_url": "",
+      "image_url": "",
+      "featured": true,
+      "visible": true,
+      "sort_order": 1
+    }
+  ],
+  "projects": [
+    {
+      "title": "IoT-Enabled Crop Recommendation System",
+      "period": "2024 — 2025",
+      "summary": "A field-deployable system that reads soil and weather conditions in real time and recommends the most suitable crop.",
+      "details": [
+        "Trained and compared ensemble and deep tabular models on soil and weather features",
+        "Integrated IoT sensors with cloud dashboards for data collection, storage and analysis",
+        "Runs inference on low-cost edge hardware with explainable outputs"
+      ],
+      "tech": [
+        "Python",
+        "Scikit-learn",
+        "IoT",
+        "Raspberry Pi",
+        "ThingsBoard",
+        "LIME"
+      ],
+      "featured": true,
+      "image_url": "",
+      "link_url": "",
+      "repo_url": "",
+      "visible": true,
+      "sort_order": 1
+    },
+    {
+      "title": "Malabar Spinach Disease Detection",
+      "period": "2024",
+      "summary": "Led a deep-learning project to classify and predict diseases in Malabar spinach from leaf images.",
+      "details": [
+        "Collected and preprocessed a large image dataset from the field",
+        "Trained and validated CNN models for disease classification"
+      ],
+      "tech": [
+        "Deep Learning",
+        "CNN",
+        "TensorFlow / Keras",
+        "OpenCV"
+      ],
+      "featured": true,
+      "image_url": "",
+      "link_url": "",
+      "repo_url": "",
+      "visible": true,
+      "sort_order": 2
+    },
+    {
+      "title": "Real-Time Environmental Monitoring",
+      "period": "2024",
+      "summary": "Designed and deployed an IoT system that monitors soil, weather and crop conditions to support precision crop management.",
+      "details": [
+        "Sensor-based collection of real-time environmental data",
+        "Field experiments to evaluate the impact of IoT and ML on crop yield and health"
+      ],
+      "tech": [
+        "IoT",
+        "Sensors",
+        "Cloud platforms",
+        "Data analysis"
+      ],
+      "featured": false,
+      "image_url": "",
+      "link_url": "",
+      "repo_url": "",
+      "visible": true,
+      "sort_order": 3
+    },
+    {
+      "title": "Computer Vision for Security Analytics",
+      "period": "2025",
+      "summary": "Industry internship work on computer-vision models for security analytics at Gaze Technology.",
+      "details": [
+        "Data cleaning, feature engineering and model testing",
+        "Prototype deployment and performance monitoring to improve reliability"
+      ],
+      "tech": [
+        "Computer Vision",
+        "Python",
+        "Git/GitHub",
+        "Agile"
+      ],
+      "featured": false,
+      "image_url": "",
+      "link_url": "",
+      "repo_url": "",
+      "visible": true,
+      "sort_order": 4
+    }
+  ],
+  "experience": [
+    {
+      "role": "Research Assistant",
+      "organization": "North South University",
+      "location": "Dhaka",
+      "start_label": "Jan 2024",
+      "end_label": "Present",
+      "bullets": [
+        "Developing and implementing machine learning models for IoT-enabled crop recommendation systems, enhancing agricultural productivity and sustainability.",
+        "Collaborating with interdisciplinary teams to integrate IoT devices and cloud platforms for data collection, storage and analysis.",
+        "Preprocessing large datasets, including image data, to train and validate CNN models for disease detection."
+      ],
+      "visible": true,
+      "sort_order": 1
+    },
+    {
+      "role": "AI/ML Engineer Intern",
+      "organization": "Gaze Technology",
+      "location": "Dhaka",
+      "start_label": "Mar 2025",
+      "end_label": "Aug 2025",
+      "bullets": [
+        "Assisted with data cleaning, feature engineering and testing of computer-vision models for security analytics.",
+        "Participated in Agile sprints; used Git/GitHub for version control.",
+        "Contributed to prototype deployment and performance monitoring, improving model reliability."
+      ],
+      "visible": true,
+      "sort_order": 2
+    },
+    {
+      "role": "Research Assistant",
+      "organization": "Habiganj Agricultural University",
+      "location": "Dhaka",
+      "start_label": "Jun 2024",
+      "end_label": "Dec 2024",
+      "bullets": [
+        "Conducted research on precision agriculture, leveraging IoT-based solutions to optimise crop management and resource allocation.",
+        "Designed and deployed an IoT system to collect real-time environmental data for monitoring soil, weather and crop conditions.",
+        "Led a project on Malabar spinach disease detection, using deep learning to classify and predict plant diseases.",
+        "Conducted field experiments to evaluate the effectiveness of IoT and ML solutions in improving crop yield and health."
+      ],
+      "visible": true,
+      "sort_order": 3
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. in Computer Science and Engineering",
+      "institution": "North South University",
+      "location": "Dhaka",
+      "start_label": "Jan 2020",
+      "end_label": "Dec 2024",
+      "details": "",
+      "visible": true,
+      "sort_order": 1
+    },
+    {
+      "degree": "Higher Secondary Certificate — Science",
+      "institution": "Brahmanbaria Govt. College",
+      "location": "Brahmanbaria",
+      "start_label": "Apr 2017",
+      "end_label": "Apr 2019",
+      "details": "",
+      "visible": true,
+      "sort_order": 2
+    },
+    {
+      "degree": "Secondary School Certificate — Science",
+      "institution": "Annada Govt. High School",
+      "location": "Brahmanbaria",
+      "start_label": "Jan 2012",
+      "end_label": "Apr 2017",
+      "details": "",
+      "visible": true,
+      "sort_order": 3
+    }
+  ],
+  "skills": [
+    {
+      "category": "Machine Learning",
+      "items": [
+        "Supervised & unsupervised learning",
+        "Classification",
+        "Regression",
+        "Clustering",
+        "Model evaluation (accuracy, precision, recall, F1)"
+      ],
+      "visible": true,
+      "sort_order": 1
+    },
+    {
+      "category": "Deep Learning",
+      "items": [
+        "Neural networks",
+        "CNNs",
+        "TensorFlow / Keras",
+        "PyTorch"
+      ],
+      "visible": true,
+      "sort_order": 2
+    },
+    {
+      "category": "Data Science",
+      "items": [
+        "Data cleaning & normalisation",
+        "Encoding",
+        "Feature engineering",
+        "Exploratory data analysis"
+      ],
+      "visible": true,
+      "sort_order": 3
+    },
+    {
+      "category": "IoT & Systems",
+      "items": [
+        "Sensor data collection",
+        "Cloud platforms",
+        "Edge deployment",
+        "API integration"
+      ],
+      "visible": true,
+      "sort_order": 4
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "Python",
+        "Jupyter Notebook",
+        "OpenCV",
+        "Git / GitHub",
+        "MS Office"
+      ],
+      "visible": true,
+      "sort_order": 5
+    },
+    {
+      "category": "Languages",
+      "items": [
+        "Bangla — native",
+        "English — good working knowledge"
+      ],
+      "visible": true,
+      "sort_order": 6
+    }
+  ],
+  "gallery": []
+}

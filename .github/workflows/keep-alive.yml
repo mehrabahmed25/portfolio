@@ -1,0 +1,34 @@
+name: Keep Supabase awake and back up content
+
+# Free Supabase projects pause after 7 days without activity.
+# This runs twice a week: it reads the public content (which counts as
+# activity) and saves a copy to data/content.json, which the site uses
+# as a backup if Supabase is ever unreachable.
+on:
+  schedule:
+    - cron: "17 3 * * 1,4"   # Mon & Thu, 09:17 Dhaka time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Export content from Supabase
+        run: node scripts/export-content.mjs
+      - name: Commit backup if it changed
+        run: |
+          if git diff --quiet -- data/content.json && git ls-files --error-unmatch data/content.json >/dev/null 2>&1; then
+            echo "No changes"; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/content.json
+          git commit -m "Update content backup [skip ci]"
+          git push

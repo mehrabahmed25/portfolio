@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mehrab Uddin Ahmed — AI/ML Researcher</title>
+  <meta name="description" content="Mehrab Uddin Ahmed — AI/ML researcher working on IoT and machine learning for precision agriculture. Publications, projects, experience and contact.">
+  <meta property="og:title" content="Mehrab Uddin Ahmed — AI/ML Researcher">
+  <meta property="og:description" content="Machine learning and IoT systems for precision agriculture.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231F6B45'/%3E%3Cpath d='M20 44c0-14 10-24 26-24-1 15-10 24-24 24' fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script>
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#top" id="brand">Mehrab Uddin Ahmed</a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch colour theme">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" fill="currentColor"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top">
+      <div class="hero-text">
+        <p class="status" id="openToWork" hidden><span class="dot" aria-hidden="true"></span>Open to research and ML engineering roles</p>
+        <h1 id="heroName">Mehrab Uddin Ahmed</h1>
+        <p class="headline" id="heroHeadline"></p>
+        <p class="tagline" id="heroTagline"></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" id="cvLink" href="assets/Mehrab_Uddin_Ahmed_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+          <a class="btn" href="#contact">Get in touch</a>
+        </div>
+        <ul class="social" id="heroSocial"></ul>
+      </div>
+      <figure class="portrait" id="portrait">
+        <div class="portrait-frame">
+          <img id="heroPhoto" alt="Portrait of Mehrab Uddin Ahmed" hidden>
+          <span class="monogram" id="monogram" aria-hidden="true">MA</span>
+        </div>
+        <figcaption id="heroLocation"></figcaption>
+      </figure>
+    </section>
+
+    <section class="block wrap" id="research" aria-labelledby="h-research">
+      <h2 class="block-title" id="h-research">Research</h2>
+      <div class="block-body">
+        <ul class="interests" id="interests"></ul>
+        <div id="publications"></div>
+      </div>
+    </section>
+
+    <section class="block wrap" id="about" aria-labelledby="h-about">
+      <h2 class="block-title" id="h-about">About</h2>
+      <div class="block-body prose" id="aboutText"></div>
+    </section>
+
+    <section class="block wrap" id="projects" aria-labelledby="h-projects">
+      <h2 class="block-title" id="h-projects">Projects</h2>
+      <div class="block-body projects" id="projectList"></div>
+    </section>
+
+    <section class="block wrap" id="experience" aria-labelledby="h-experience">
+      <h2 class="block-title" id="h-experience">Experience</h2>
+      <div class="block-body"><ol class="timeline" id="experienceList"></ol></div>
+    </section>
+
+    <section class="block wrap" id="education" aria-labelledby="h-education">
+      <h2 class="block-title" id="h-education">Education</h2>
+      <div class="block-body"><ol class="timeline compact" id="educationList"></ol></div>
+    </section>
+
+    <section class="block wrap" id="skills" aria-labelledby="h-skills">
+      <h2 class="block-title" id="h-skills">Skills</h2>
+      <div class="block-body"><dl class="skills" id="skillList"></dl></div>
+    </section>
+
+    <section class="block wrap" id="gallery" aria-labelledby="h-gallery" hidden>
+      <h2 class="block-title" id="h-gallery">In the field</h2>
+      <div class="block-body"><div class="gallery" id="galleryGrid"></div></div>
+    </section>
+
+    <section class="block wrap" id="contact" aria-labelledby="h-contact">
+      <h2 class="block-title" id="h-contact">Contact</h2>
+      <div class="block-body contact">
+        <div class="contact-info">
+          <p class="contact-lead">Whether it's a research collaboration, a role, or a question about my work, I'd be glad to hear from you.</p>
+          <ul class="contact-list" id="contactList"></ul>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <label>Your name<input name="name" required maxlength="120" autocomplete="name"></label>
+          <label>Your email<input name="email" type="email" required maxlength="200" autocomplete="email"></label>
+          <label>Message<textarea name="message" required maxlength="4000" rows="5"></textarea></label>
+          <label class="hp" aria-hidden="true">Leave this empty<input name="website" tabindex="-1" autocomplete="off"></label>
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <p>© <span id="year"></span> Mehrab Uddin Ahmed · Dhaka, Bangladesh</p>
+    <a href="admin.html" class="footer-admin">Admin</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Portfolio Admin</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231F6B45'/%3E%3Cpath d='M20 44c0-14 10-24 26-24-1 15-10 24-24 24' fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body>
+  <!-- Sign in -->
+  <main class="login" id="loginView" hidden>
+    <form class="login-card" id="loginForm">
+      <h1>Portfolio admin</h1>
+      <p class="muted">Sign in to edit your site. Changes go live as soon as you save.</p>
+      <label>Email<input name="email" type="email" autocomplete="username" required></label>
+      <label>Password<input name="password" type="password" autocomplete="current-password" required></label>
+      <button class="btn primary" type="submit">Sign in</button>
+      <p class="msg" id="loginMsg" role="alert"></p>
+      <a class="muted small" href="./">Back to the site</a>
+    </form>
+  </main>
+
+  <!-- App -->
+  <div class="app" id="appView" hidden>
+    <aside class="side">
+      <div class="side-head">
+        <strong>Portfolio admin</strong>
+        <a class="small" href="./" target="_blank" rel="noopener">View site</a>
+      </div>
+      <nav id="tabs" aria-label="Sections"></nav>
+      <button class="btn ghost small" id="signOut" type="button">Sign out</button>
+    </aside>
+    <main class="content">
+      <header class="content-head">
+        <div>
+          <h2 id="sectionTitle"></h2>
+          <p class="muted" id="sectionHint"></p>
+        </div>
+        <button class="btn primary" id="addBtn" type="button" hidden>Add new</button>
+      </header>
+      <div id="sectionBody"></div>
+    </main>
+  </div>
+
+  <dialog id="editor">
+    <form id="editorForm" method="dialog">
+      <header class="dlg-head">
+        <h3 id="editorTitle">Edit</h3>
+        <button type="button" class="icon-btn" id="editorClose" aria-label="Close">✕</button>
+      </header>
+      <div class="dlg-body" id="editorFields"></div>
+      <footer class="dlg-foot">
+        <p class="msg" id="editorMsg" role="alert"></p>
+        <button type="button" class="btn ghost" id="editorCancel">Cancel</button>
+        <button type="submit" class="btn primary" id="editorSave">Save</button>
+      </footer>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/admin.js"></script>
+</body>
+</html>
