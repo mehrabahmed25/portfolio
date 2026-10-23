@@ -24,10 +24,12 @@
     "scholar_url": "",
     "researchgate_url": "",
     "orcid_url": "",
-    "open_to_work": true
+    "open_to_work": true,
+    "updated_at": "2026-10-23T11:20:33.146711+00:00"
   },
   "publications": [
     {
+      "id": "952929dd-a7a1-4a34-b11f-c4040d5c3165",
       "title": "An IoT-enabled AI system for real-time crop prediction using soil and weather data in precision agriculture",
       "authors": "MD Shaifullah Sharafat, Nilavro Das Kabya, Rahimul Islam Emu, Mehrab Uddin Ahmed, Jakaria Chowdhury Onik, Mohammad Aminul Islam, Riasat Khan",
       "venue": "Smart Agricultural Technology, Article 101263",
@@ -54,11 +56,14 @@
       "image_url": "",
       "featured": true,
       "visible": true,
-      "sort_order": 1
+      "sort_order": 1,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:20:14.882116+00:00"
     }
   ],
   "projects": [
     {
+      "id": "22eb86e2-6b70-4354-b020-c5ba5a574a56",
       "title": "IoT-Enabled Crop Recommendation System",
       "period": "2024 — 2025",
       "summary": "A field-deployable system that reads soil and weather conditions in real time and recommends the most suitable crop.",
@@ -75,14 +80,17 @@
         "ThingsBoard",
         "LIME"
       ],
-      "featured": true,
       "image_url": "",
       "link_url": "",
       "repo_url": "",
+      "featured": true,
       "visible": true,
-      "sort_order": 1
+      "sort_order": 1,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     },
     {
+      "id": "ff401e14-8a69-434c-9c5a-d7bd1ec76835",
       "title": "Malabar Spinach Disease Detection",
       "period": "2024",
       "summary": "Led a deep-learning project to classify and predict diseases in Malabar spinach from leaf images.",
@@ -96,14 +104,17 @@
         "TensorFlow / Keras",
         "OpenCV"
       ],
-      "featured": true,
       "image_url": "",
       "link_url": "",
       "repo_url": "",
+      "featured": true,
       "visible": true,
-      "sort_order": 2
+      "sort_order": 2,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     },
     {
+      "id": "9ad94ea2-9c26-495c-bc7e-93cfcd92479c",
       "title": "Real-Time Environmental Monitoring",
       "period": "2024",
       "summary": "Designed and deployed an IoT system that monitors soil, weather and crop conditions to support precision crop management.",
@@ -117,14 +128,17 @@
         "Cloud platforms",
         "Data analysis"
       ],
-      "featured": false,
       "image_url": "",
       "link_url": "",
       "repo_url": "",
+      "featured": false,
       "visible": true,
-      "sort_order": 3
+      "sort_order": 3,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     },
     {
+      "id": "313cd89e-710f-49d3-ae1d-67f6d3545413",
       "title": "Computer Vision for Security Analytics",
       "period": "2025",
       "summary": "Industry internship work on computer-vision models for security analytics at Gaze Technology.",
@@ -138,16 +152,19 @@
         "Git/GitHub",
         "Agile"
       ],
-      "featured": false,
       "image_url": "",
       "link_url": "",
       "repo_url": "",
+      "featured": false,
       "visible": true,
-      "sort_order": 4
+      "sort_order": 4,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     }
   ],
   "experience": [
     {
+      "id": "530c5c6c-08da-4585-92e3-7391d492758a",
       "role": "Research Assistant",
       "organization": "North South University",
       "location": "Dhaka",
@@ -158,10 +175,14 @@
         "Collaborating with interdisciplinary teams to integrate IoT devices and cloud platforms for data collection, storage and analysis.",
         "Preprocessing large datasets, including image data, to train and validate CNN models for disease detection."
       ],
+      "logo_url": "",
       "visible": true,
-      "sort_order": 1
+      "sort_order": 1,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     },
     {
+      "id": "44ef6b53-ecf2-4c6d-af27-caf514d18864",
       "role": "AI/ML Engineer Intern",
       "organization": "Gaze Technology",
       "location": "Dhaka",
@@ -172,10 +193,14 @@
         "Participated in Agile sprints; used Git/GitHub for version control.",
         "Contributed to prototype deployment and performance monitoring, improving model reliability."
       ],
+      "logo_url": "",
       "visible": true,
-      "sort_order": 2
+      "sort_order": 2,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     },
     {
+      "id": "3373519b-2a31-4fa9-9c82-869e18dd0b2e",
       "role": "Research Assistant",
       "organization": "Habiganj Agricultural University",
       "location": "Dhaka",
@@ -187,12 +212,16 @@
         "Led a project on Malabar spinach disease detection, using deep learning to classify and predict plant diseases.",
         "Conducted field experiments to evaluate the effectiveness of IoT and ML solutions in improving crop yield and health."
       ],
+      "logo_url": "",
       "visible": true,
-      "sort_order": 3
+      "sort_order": 3,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     }
   ],
   "education": [
     {
+      "id": "a56a2825-9b7e-4e6d-a527-a446b67e8fb4",
       "degree": "B.Sc. in Computer Science and Engineering",
       "institution": "North South University",
       "location": "Dhaka",
@@ -200,9 +229,12 @@
       "end_label": "Dec 2024",
       "details": "",
       "visible": true,
-      "sort_order": 1
+      "sort_order": 1,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     },
     {
+      "id": "5c6035f5-1a62-43e9-90e6-331288fb8498",
       "degree": "Higher Secondary Certificate — Science",
       "institution": "Brahmanbaria Govt. College",
       "location": "Brahmanbaria",
@@ -210,9 +242,12 @@
       "end_label": "Apr 2019",
       "details": "",
       "visible": true,
-      "sort_order": 2
+      "sort_order": 2,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     },
     {
+      "id": "3a18495f-513e-4d2d-95e1-bd7ca3f9ee28",
       "degree": "Secondary School Certificate — Science",
       "institution": "Annada Govt. High School",
       "location": "Brahmanbaria",
@@ -220,11 +255,14 @@
       "end_label": "Apr 2017",
       "details": "",
       "visible": true,
-      "sort_order": 3
+      "sort_order": 3,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     }
   ],
   "skills": [
     {
+      "id": "888d1947-c13f-4b18-9d0b-f2fd4eaccedc",
       "category": "Machine Learning",
       "items": [
         "Supervised & unsupervised learning",
@@ -234,9 +272,12 @@
         "Model evaluation (accuracy, precision, recall, F1)"
       ],
       "visible": true,
-      "sort_order": 1
+      "sort_order": 1,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     },
     {
+      "id": "fbc68718-47eb-48e4-8aee-390743d95ecb",
       "category": "Deep Learning",
       "items": [
         "Neural networks",
@@ -245,9 +286,12 @@
         "PyTorch"
       ],
       "visible": true,
-      "sort_order": 2
+      "sort_order": 2,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     },
     {
+      "id": "0ac290b8-0acb-4cdf-aee5-0d140c2933d9",
       "category": "Data Science",
       "items": [
         "Data cleaning & normalisation",
@@ -256,9 +300,12 @@
         "Exploratory data analysis"
       ],
       "visible": true,
-      "sort_order": 3
+      "sort_order": 3,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     },
     {
+      "id": "17f781c7-3612-4e10-b671-961d368f59cb",
       "category": "IoT & Systems",
       "items": [
         "Sensor data collection",
@@ -267,9 +314,12 @@
         "API integration"
       ],
       "visible": true,
-      "sort_order": 4
+      "sort_order": 4,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     },
     {
+      "id": "37810a2f-c579-468c-8718-316fff8d9cdb",
       "category": "Tools",
       "items": [
         "Python",
@@ -279,16 +329,21 @@
         "MS Office"
       ],
       "visible": true,
-      "sort_order": 5
+      "sort_order": 5,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     },
     {
+      "id": "28c71d53-a297-4ce1-8b13-fa83e67934e8",
       "category": "Languages",
       "items": [
         "Bangla — native",
         "English — good working knowledge"
       ],
       "visible": true,
-      "sort_order": 6
+      "sort_order": 6,
+      "created_at": "2026-10-23T11:16:53.293228+00:00",
+      "updated_at": "2026-10-23T11:16:53.293228+00:00"
     }
   ],
   "gallery": []
